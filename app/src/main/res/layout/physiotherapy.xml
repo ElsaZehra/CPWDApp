@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/pager">
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:foregroundGravity="top"
+            android:background="#33B5E5"
+            android:id="@+id/title">
+        </android.support.v4.view.PagerTitleStrip>
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@drawable/doc1"
+        android:id="@+id/button7"
+        android:onClick="appoint"
+        android:layout_below="@+id/pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:background="@drawable/doc2"
+        android:id="@+id/button8"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@drawable/doc3"
+        android:text=""
+        android:id="@+id/button9"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@drawable/doc4"
+        android:text=""
+        android:id="@+id/button10"
+        android:layout_below="@+id/button7"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_toEndOf="@+id/button9" />
+
+
+</RelativeLayout>

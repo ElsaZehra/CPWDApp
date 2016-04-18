@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PATIENTS</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Appointment_names">
+        <item>24 5PM MONDAY</item>
+        <item>24 9PM TUESDAY</item>
+        <item>26 9AM SATURDAY</item>
+        <item>27 11AM SUNDAY</item>
+        <item>30 9AM WEDNESDAY</item>
+        <item>30 9PM WEDNESDAY</item>
+    </string-array>
+</resources>
